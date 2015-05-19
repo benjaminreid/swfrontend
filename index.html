@@ -6,16 +6,23 @@
   </head>
   <body>
     <h1>Join South West Front-End</h1>
+    <p>
+      Want to chat about front-end things with like-minded folks in the South West?
+      Then pop your details in below and we'll get an invite out to you.
+    </p>
     <form action="//formspree.io/benjaminreid.nouveller+swfrontend@gmail.com" method="POST">
       <input type="hidden" name="_next" value="//nouveller.github.io/swfrontend/cheersen.html">
       <input type="hidden" name="_subject" value="Request to join SW Front-End">
       <input type="text" name="_gotcha" style="display:none" />
 
       <label>
-        Name <input type="text" name="name">
+        Name <input type="text" name="name" placeholder="Ian Malcolm" required>
       </label>
       <label>
-        Email <input type="email" name="_replyto">
+        Email <input type="email" name="_replyto" placeholder="ian@jurassicpark.com" required>
+      </label>
+      <label>
+        Twitter <input type="text" name="twitter" placeholder="@ianmalcolm" required>
       </label>
       <input type="submit" value="Join">
     </form>
